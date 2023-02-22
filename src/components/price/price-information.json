@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_price_price_informations",
+  "info": {
+    "displayName": "PriceInformation"
+  },
+  "options": {},
+  "attributes": {
+    "PriceKilo": {
+      "type": "decimal"
+    },
+    "PriceProduct": {
+      "type": "decimal"
+    }
+  }
+}

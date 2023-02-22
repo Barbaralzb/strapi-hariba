@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "list_articles",
+  "info": {
+    "singularName": "list-article",
+    "pluralName": "list-articles",
+    "displayName": "ListArticle",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "richtext",
+      "required": true
+    },
+    "Image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ExtraInformation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "bonbon.color-information"
+    },
+    "Price": {
+      "displayName": "PriceInformation",
+      "type": "component",
+      "repeatable": false,
+      "component": "price.price-information"
+    }
+  }
+}

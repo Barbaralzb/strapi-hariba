@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_color_color_informations",
+  "info": {
+    "displayName": "BonbonInformation",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Color": {
+      "type": "string"
+    },
+    "PreferencesAlimentaires": {
+      "type": "string"
+    },
+    "Flavor": {
+      "type": "string"
+    }
+  }
+}
